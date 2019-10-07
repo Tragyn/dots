@@ -1,0 +1,1312 @@
+This is METAFONT, Version 2.7182818 (TeX Live 2017/Arch Linux) (preloaded base=mf 2017.11.18)  21 DEC 2017 15:08
+**config wpconfig
+(config
+>> =====================================================
+! Isolated expression.
+<to be read again> 
+                   ;
+l.2 ;
+     
+? 
+! Interruption.
+l.2 ;
+     
+? 
+>> To.learn.more.about.how
+! Isolated expression.
+<to be read again> 
+                   to
+l.3 ;   To learn more about how to
+                                   configure Polybar
+? 
+! Extra tokens will be flushed.
+<to be read again> 
+                   to
+l.3 ;   To learn more about how to
+                                   configure Polybar
+? quit
+OK, entering batchmode...
+
+! Interruption.
+l.3 ;   To learn more about how to
+                                   configure Polybar
+? quit
+OK, entering batchmode...
+>> go
+! Isolated expression.
+<to be read again> 
+                   to
+l.4 ;   go to
+              https://github.com/jaagr/polybar
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+
+! Extra tokens will be flushed.
+<to be read again> 
+                   to
+l.4 ;   go to
+              https://github.com/jaagr/polybar
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+
+>> The.README.contains.alot
+! Isolated expression.
+<to be read again> 
+                   of
+l.6 ;   The README contains alot of
+                                    information
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+
+! Extra tokens will be flushed.
+<to be read again> 
+                   of
+l.6 ;   The README contains alot of
+                                    information
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+
+>> colors
+! Improper subscript has been replaced by zero.
+l.10 [colors]
+             
+A bracketed subscript must have a known numeric value;
+unfortunately, what I found was the value that appears just
+above this error message. So I'll try a zero subscript.
+
+! Extra tokens will be flushed.
+<to be read again> 
+                   {
+l.11 background = ${
+                    xrdb:color8}
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+
+! Enormous number has been reduced.
+l.12 background-alt = #818181
+                             
+I can't handle numbers bigger than about 4095.99998;
+so I've changed your constant to that maximum amount.
+
+! Enormous number has been reduced.
+l.15 active = #667058
+                     
+I can't handle numbers bigger than about 4095.99998;
+so I've changed your constant to that maximum amount.
+
+! Extra tokens will be flushed.
+<to be read again> 
+                   :
+l.42 font-1 = FontAwesome:
+                          style=Regular:size=10:antialias=false;2
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+
+>> 2modules
+>> (-1,0)
+! Not implemented: (unknown numeric)-(pair).
+<to be read again> 
+                   =
+l.44 modules-left =
+                    i3
+I'm afraid I don't know how to apply that operation to that
+combination of types. Continue, and I'll return the second
+argument (see above) as the result of the operation.
+
+>> xwindow.modules
+>> (1,0)
+! Not implemented: (unknown numeric)-(pair).
+<to be read again> 
+                   =
+l.46 modules-right =
+                      volume wlan eth date temperature battery
+I'm afraid I don't know how to apply that operation to that
+combination of types. Continue, and I'll return the second
+argument (see above) as the result of the operation.
+
+>> (1,0)
+>> =====================================================0background
+! Equation cannot be performed (pair=numeric).
+<to be read again> 
+                   {
+l.50 tray-background = ${
+                         colors.inactive}
+I'm sorry, but I don't know how to make such things equal.
+(See the two expressions just above the error message.)
+
+>> (-1,0)
+>> =====================================================0background
+! Equation cannot be performed (pair=numeric).
+<to be read again> 
+                   {
+l.50 tray-background = ${
+                         colors.inactive}
+I'm sorry, but I don't know how to make such things equal.
+(See the two expressions just above the error message.)
+
+! Extra tokens will be flushed.
+<to be read again> 
+                   {
+l.50 tray-background = ${
+                         colors.inactive}
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+
+>> Only
+! Isolated expression.
+<to be read again> 
+                   show
+l.110 ; Only show
+                  workspaces on the same output as the bar
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+
+! Extra tokens will be flushed.
+<to be read again> 
+                   show
+l.110 ; Only show
+                  workspaces on the same output as the bar
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+
+! Text line contains an invalid character.
+l.113 ws-icon-0 = 1;Ô
+                     â®
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.113 ws-icon-0 = 1;Ôâ
+                      ®
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.113 ws-icon-0 = 1;Ôâ®
+                       
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.114 ws-icon-1 = 2;Ô
+                     Ñ°
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.114 ws-icon-1 = 2;ÔÑ
+                      °
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.114 ws-icon-1 = 2;ÔÑ°
+                       
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Inconsistent equation (off by 8).
+<to be read again> 
+                   ;
+l.115 ws-icon-2 = 9;
+                    Ôâ∫
+The equation I just read contradicts what was said before.
+But don't worry; continue and I'll just ignore it.
+
+! Text line contains an invalid character.
+l.115 ws-icon-2 = 9;Ô
+                     â∫
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.115 ws-icon-2 = 9;Ôâ
+                      ∫
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.115 ws-icon-2 = 9;Ôâ∫
+                       
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Inconsistent equation (off by 10).
+<to be read again> 
+                   ;
+l.116 ws-icon-3 = 10;
+                     ÔÄ•
+The equation I just read contradicts what was said before.
+But don't worry; continue and I'll just ignore it.
+
+! Text line contains an invalid character.
+l.116 ws-icon-3 = 10;Ô
+                      Ä•
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.116 ws-icon-3 = 10;ÔÄ
+                       •
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.116 ws-icon-3 = 10;ÔÄ•
+                        
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.117 ws-icon-default = Ô
+                         â¨
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.117 ws-icon-default = Ôâ
+                          ¨
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.117 ws-icon-default = Ôâ¨
+                           
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Extra tokens will be flushed.
+<to be read again> 
+                   {
+l.120 label-mode-foreground = ${
+                                colors.foreground}
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+
+! Extra tokens will be flushed.
+<to be read again> 
+                   {
+l.125 label-focused-background = ${
+                                   colors.active}
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+
+! Redundant equation.
+<to be read again> 
+                   {
+l.131 label-unfocused-background = ${
+                                     colors.inactive}
+I already knew that this equation was true.
+But perhaps no harm has been done; let's continue.
+
+! Extra tokens will be flushed.
+<to be read again> 
+                   {
+l.131 label-unfocused-background = ${
+                                     colors.inactive}
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+
+! Redundant equation.
+<to be read again> 
+                   {
+l.135 label-visible-background = ${
+                                   xrdb:color2}
+I already knew that this equation was true.
+But perhaps no harm has been done; let's continue.
+
+! Extra tokens will be flushed.
+<to be read again> 
+                   {
+l.135 label-visible-background = ${
+                                   xrdb:color2}
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+
+! Redundant equation.
+<to be read again> 
+                   {
+l.140 label-urgent-background = ${
+                                  xrdb:color2}
+I already knew that this equation was true.
+But perhaps no harm has been done; let's continue.
+
+! Extra tokens will be flushed.
+<to be read again> 
+                   {
+l.140 label-urgent-background = ${
+                                  xrdb:color2}
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+
+! Text line contains an invalid character.
+l.147 icon-play = ‚
+                   èµ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.147 icon-play = ‚è
+                    µ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.147 icon-play = ‚èµ
+                     
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.148 icon-pause = ‚
+                    è∏
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.148 icon-pause = ‚è
+                     ∏
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.148 icon-pause = ‚è∏
+                      
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.149 icon-stop = ‚
+                   èπ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.149 icon-stop = ‚è
+                    π
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.149 icon-stop = ‚èπ
+                     
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.150 icon-prev = ‚
+                   èÆ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.150 icon-prev = ‚è
+                    Æ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.150 icon-prev = ‚èÆ
+                     
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.151 icon-next = ‚
+                   è≠
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.151 icon-next = ‚è
+                    ≠
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.151 icon-next = ‚è≠
+                     
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.168 bar-fill = ‚
+                  îÄ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.168 bar-fill = ‚î
+                   Ä
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.168 bar-fill = ‚îÄ
+                    
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.171 bar-empty = ‚
+                   îÄ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.171 bar-empty = ‚î
+                    Ä
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.171 bar-empty = ‚îÄ
+                     
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! An expression can't begin with `<'.
+<inserted text> 
+                0
+<to be read again> 
+                   <
+l.206 ;format-disconnected = <
+                              label-disconnected>
+I'm afraid I need some sort of value in order to continue,
+so I've tentatively inserted `0'. You may want to
+delete this zero and insert something else;
+see Chapter 27 of The METAFONTbook for an example.
+
+>> disconnected-mode-=====================================================0back
+ground
+! Unknown relation will be considered false.
+<to be read again> 
+                   >
+l.206 ;format-disconnected = <label-disconnected>
+                                                 
+Oh dear. I can't decide if the expression above is positive,
+negative, or zero. So this comparison test won't be `true'.
+
+! A tertiary expression can't begin with `;'.
+<inserted text> 
+                0
+<to be read again> 
+                   ;
+l.207 ;
+       format-disconnected-underline = ${self.format-connected-underline}
+I'm afraid I need some sort of value in order to continue,
+so I've tentatively inserted `0'. You may want to
+delete this zero and insert something else;
+see Chapter 27 of The METAFONTbook for an example.
+
+>> false
+>> 0
+! Not implemented: (boolean)>(known numeric).
+<to be read again> 
+                   ;
+l.207 ;
+       format-disconnected-underline = ${self.format-connected-underline}
+I'm afraid I don't know how to apply that operation to that
+combination of types. Continue, and I'll return the second
+argument (see above) as the result of the operation.
+
+! Extra tokens will be flushed.
+<to be read again> 
+                   {
+l.207 ;format-disconnected-underline = ${
+                                         self.format-connected-underline}
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+
+! An expression can't begin with `;'.
+<inserted text> 
+                0
+<to be read again> 
+                   ;
+l.209 ;
+       label-disconnected-foreground = ${colors.foreground-alt}
+I'm afraid I need some sort of value in order to continue,
+so I've tentatively inserted `0'. You may want to
+delete this zero and insert something else;
+see Chapter 27 of The METAFONTbook for an example.
+
+! Extra tokens will be flushed.
+<to be read again> 
+                   {
+l.209 ;label-disconnected-foreground = ${
+                                         colors.foreground-alt}
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+
+! Text line contains an invalid character.
+l.211 ramp-signal-0 = Ô
+                       Çû
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.211 ramp-signal-0 = ÔÇ
+                        û
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.211 ramp-signal-0 = ÔÇû
+                         
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! An expression can't begin with `<'.
+<inserted text> 
+                0
+<to be read again> 
+                   <
+l.220 format-connected = <
+                          label-connected>
+I'm afraid I need some sort of value in order to continue,
+so I've tentatively inserted `0'. You may want to
+delete this zero and insert something else;
+see Chapter 27 of The METAFONTbook for an example.
+
+>> connected-0.5mode
+! Unknown relation will be considered false.
+<to be read again> 
+                   >
+l.220 format-connected = <label-connected>
+                                          
+Oh dear. I can't decide if the expression above is positive,
+negative, or zero. So this comparison test won't be `true'.
+
+>> false
+>> -connected+0.5mode
+! Not implemented: (boolean)>(unknown numeric).
+<to be read again> 
+                   =
+l.221 format-connected-padding =
+                                 2
+I'm afraid I don't know how to apply that operation to that
+combination of types. Continue, and I'll return the second
+argument (see above) as the result of the operation.
+
+! Redundant equation.
+<to be read again> 
+                   {
+l.222 format-connected-background = ${
+                                      colors.active}
+I already knew that this equation was true.
+But perhaps no harm has been done; let's continue.
+
+! Extra tokens will be flushed.
+<to be read again> 
+                   {
+l.222 format-connected-background = ${
+                                      colors.active}
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+
+! Text line contains an invalid character.
+l.223 label-connected = Ô
+                         ÉÅ %local_ip%
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.223 label-connected = ÔÉ
+                          Å %local_ip%
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.223 label-connected = ÔÉÅ
+                            %local_ip%
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! An expression can't begin with `<'.
+<inserted text> 
+                0
+<to be read again> 
+                   <
+l.226 ;format-disconnected = <
+                              label-disconnected>
+I'm afraid I need some sort of value in order to continue,
+so I've tentatively inserted `0'. You may want to
+delete this zero and insert something else;
+see Chapter 27 of The METAFONTbook for an example.
+
+! A tertiary expression can't begin with `;'.
+<inserted text> 
+                0
+<to be read again> 
+                   ;
+l.227 ;
+       format-disconnected-underline = ${self.format-connected-underline}
+I'm afraid I need some sort of value in order to continue,
+so I've tentatively inserted `0'. You may want to
+delete this zero and insert something else;
+see Chapter 27 of The METAFONTbook for an example.
+
+>> false
+>> 0
+! Not implemented: (boolean)>(known numeric).
+<to be read again> 
+                   ;
+l.227 ;
+       format-disconnected-underline = ${self.format-connected-underline}
+I'm afraid I don't know how to apply that operation to that
+combination of types. Continue, and I'll return the second
+argument (see above) as the result of the operation.
+
+! Redundant equation.
+<to be read again> 
+                   ;
+l.227 ;
+       format-disconnected-underline = ${self.format-connected-underline}
+I already knew that this equation was true.
+But perhaps no harm has been done; let's continue.
+
+! Redundant equation.
+<to be read again> 
+                   {
+l.227 ;format-disconnected-underline = ${
+                                         self.format-connected-underline}
+I already knew that this equation was true.
+But perhaps no harm has been done; let's continue.
+
+! Extra tokens will be flushed.
+<to be read again> 
+                   {
+l.227 ;format-disconnected-underline = ${
+                                         self.format-connected-underline}
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+
+! An expression can't begin with `;'.
+<inserted text> 
+                0
+<to be read again> 
+                   ;
+l.229 ;
+       label-disconnected-foreground = ${colors.foreground-alt}
+I'm afraid I need some sort of value in order to continue,
+so I've tentatively inserted `0'. You may want to
+delete this zero and insert something else;
+see Chapter 27 of The METAFONTbook for an example.
+
+! Redundant equation.
+<to be read again> 
+                   ;
+l.229 ;
+       label-disconnected-foreground = ${colors.foreground-alt}
+I already knew that this equation was true.
+But perhaps no harm has been done; let's continue.
+
+! Redundant equation.
+<to be read again> 
+                   {
+l.229 ;label-disconnected-foreground = ${
+                                         colors.foreground-alt}
+I already knew that this equation was true.
+But perhaps no harm has been done; let's continue.
+
+! Extra tokens will be flushed.
+<to be read again> 
+                   {
+l.229 ;label-disconnected-foreground = ${
+                                         colors.foreground-alt}
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+
+! A statement can't begin with `['.
+<to be read again> 
+                   [
+l.231 [
+       module/ewmh]
+I was looking for the beginning of a new statement.
+If you just proceed without changing anything, I'll ignore
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+
+! Extra tokens will be flushed.
+<to be read again> 
+                   [
+l.231 [
+       module/ewmh]
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+
+! Text line contains an invalid character.
+l.255 format-prefix = Ô
+                       Äó
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.255 format-prefix = ÔÄ
+                        ó
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.255 format-prefix = ÔÄó
+                         
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.267 ramp-volume-0 = Ô
+                       á∂
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.267 ramp-volume-0 = Ôá
+                        ∂
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.267 ramp-volume-0 = Ôá∂
+                         
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.268 ramp-volume-1 = Ô
+                       É≥
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.268 ramp-volume-1 = ÔÉ
+                        ≥
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.268 ramp-volume-1 = ÔÉ≥
+                         
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.269 ramp-volume-2 = Ô
+                       É≥
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.269 ramp-volume-2 = ÔÉ
+                        ≥
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.269 ramp-volume-2 = ÔÉ≥
+                         
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.270 ramp-volume-3 = Ô
+                       É≥
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.270 ramp-volume-3 = ÔÉ
+                        ≥
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.270 ramp-volume-3 = ÔÉ≥
+                         
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.271 ramp-volume-4 = Ô
+                       É≥
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.271 ramp-volume-4 = ÔÉ
+                        ≥
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.271 ramp-volume-4 = ÔÉ≥
+                         
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.272 ramp-volume-5 = Ô
+                       É≥
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.272 ramp-volume-5 = ÔÉ
+                        ≥
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.272 ramp-volume-5 = ÔÉ≥
+                         
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.285 bar-volume-fill = ‚
+                         óè
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.285 bar-volume-fill = ‚ó
+                          è
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.285 bar-volume-fill = ‚óè
+                           
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.287 bar-volume-empty = ‚
+                          óè
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.287 bar-volume-empty = ‚ó
+                           è
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.287 bar-volume-empty = ‚óè
+                            
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.302 format-full = Ô
+                     âÄ <label-full>
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.302 format-full = Ôâ
+                      Ä <label-full>
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.302 format-full = ÔâÄ
+                        <label-full>
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.306 ramp-capacity-0 = Ô
+                         âÑ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.306 ramp-capacity-0 = Ôâ
+                          Ñ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.306 ramp-capacity-0 = ÔâÑ
+                           
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.307 ramp-capacity-1 = Ô
+                         âÉ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.307 ramp-capacity-1 = Ôâ
+                          É
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.307 ramp-capacity-1 = ÔâÉ
+                           
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.308 ramp-capacity-2 = Ô
+                         âÇ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.308 ramp-capacity-2 = Ôâ
+                          Ç
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.308 ramp-capacity-2 = ÔâÇ
+                           
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.309 ramp-capacity-3 = Ô
+                         âÅ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.309 ramp-capacity-3 = Ôâ
+                          Å
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.309 ramp-capacity-3 = ÔâÅ
+                           
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.310 ramp-capacity-4 = Ô
+                         âÄ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.310 ramp-capacity-4 = Ôâ
+                          Ä
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.310 ramp-capacity-4 = ÔâÄ
+                           
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.313 animation-charging-0 = Ô
+                              á¶ ÔâÑ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.313 animation-charging-0 = Ôá
+                               ¶ ÔâÑ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.313 animation-charging-0 = Ôá¶
+                                 ÔâÑ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.313 animation-charging-0 = Ôá¶ Ô
+                                  âÑ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.313 animation-charging-0 = Ôá¶ Ôâ
+                                   Ñ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.313 animation-charging-0 = Ôá¶ ÔâÑ
+                                    
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.314 animation-charging-1 = Ô
+                              á¶ ÔâÉ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.314 animation-charging-1 = Ôá
+                               ¶ ÔâÉ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.314 animation-charging-1 = Ôá¶
+                                 ÔâÉ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.314 animation-charging-1 = Ôá¶ Ô
+                                  âÉ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.314 animation-charging-1 = Ôá¶ Ôâ
+                                   É
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.314 animation-charging-1 = Ôá¶ ÔâÉ
+                                    
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.315 animation-charging-2 = Ô
+                              á¶ ÔâÇ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.315 animation-charging-2 = Ôá
+                               ¶ ÔâÇ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.315 animation-charging-2 = Ôá¶
+                                 ÔâÇ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.315 animation-charging-2 = Ôá¶ Ô
+                                  âÇ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.315 animation-charging-2 = Ôá¶ Ôâ
+                                   Ç
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.315 animation-charging-2 = Ôá¶ ÔâÇ
+                                    
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.316 animation-charging-3 = Ô
+                              á¶ ÔâÅ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.316 animation-charging-3 = Ôá
+                               ¶ ÔâÅ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.316 animation-charging-3 = Ôá¶
+                                 ÔâÅ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.316 animation-charging-3 = Ôá¶ Ô
+                                  âÅ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.316 animation-charging-3 = Ôá¶ Ôâ
+                                   Å
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.316 animation-charging-3 = Ôá¶ ÔâÅ
+                                    
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.317 animation-charging-4 = Ô
+                              á¶ ÔâÄ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.317 animation-charging-4 = Ôá
+                               ¶ ÔâÄ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.317 animation-charging-4 = Ôá¶
+                                 ÔâÄ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.317 animation-charging-4 = Ôá¶ Ô
+                                  âÄ
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.317 animation-charging-4 = Ôá¶ Ôâ
+                                   Ä
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.317 animation-charging-4 = Ôá¶ ÔâÄ
+                                    
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.346 label-open = Ô
+                    ãì
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.346 label-open = Ôã
+                     ì
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.346 label-open = Ôãì
+                      
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.348 label-close = Ô
+                     Äç cancel
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.348 label-close = ÔÄ
+                      ç cancel
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.348 label-close = ÔÄç
+                        cancel
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+>> vim
+! Isolated expression.
+<to be read again> 
+                   :
+l.376 ; vim:
+            ft=dosini
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+
+! Extra tokens will be flushed.
+<to be read again> 
+                   :
+l.376 ; vim:
+            ft=dosini
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's ver

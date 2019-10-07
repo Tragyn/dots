@@ -1,0 +1,323 @@
+[colors]
+bg = #151515
+fg = #f8f8f8
+
+title-bg = #6d6d6d
+title-fg = #fcfcfc
+
+backlight-bg = #7965a5
+backlight-fg =
+
+timedate-bg = #6d6d6d
+timedate-fg = #fcfcfc
+
+wlan-bg = #4e91e8
+wlan-fg = #081e3a
+
+alsa-bg = #f9e76d
+alsa-fg =
+alsa-empty = #7c7c7c
+muted-bg = #2d2d2d
+muted-fg = #ededed
+
+battery-bat-bg = #b32000
+battery-bat-fg = #ffeaea
+battery-chr-bg = #2dce48
+battery-chr-fg = #071604
+battery-full-bg = ${self.battery-chr-bg}
+battery-full-fg = ${self.battery-chr-fg}
+
+cmus-bg = #ffd06d
+cmus-fg = #1e0d00
+
+[variables]
+mpadding = 3
+
+[bar/uptop]
+override-redirect = true
+wm-restack = bspwm
+enable-ipc = true
+monitor = DP-2.8
+width = 31%
+offset-x = 35%
+offset-y = 8px
+height = 33
+radius = 0
+fixed-center = true
+bottom = true
+background = ${colors.bg}
+foregound = ${colors.fg}
+separator =
+module-margin = 0
+line-size = 1
+;line-color
+
+border-top-size = 5
+border-bottom-size = 5
+border-left-size = 5
+border-right-size = 5
+border-radius = 0
+
+border-top-color = ${colors.bg}
+border-bottom-color = ${colors.bg}
+border-left-color = ${colors.bg}
+border-right-color = ${colors.bg}
+
+;tray-position = right
+
+font-0 = M+ 1m:size=10;1
+font-1 = Agave:size=10;1
+font-2 = FontAwesome:size=10;4
+font-3 = M+ 1m:size=16;4
+
+scroll-up = i3wm-wsnext
+scroll-down = i3wm-wsprev
+
+cursor-click = pointer
+cursor-scroll = default
+
+modules-left = menu bspwm title
+;modules-center =
+modules-right = spotify previous playpause next date power
+
+[module/menu]
+format-background = #262626
+;format-background = #8B0000
+format-foreground = #ffffff
+type = custom/script
+interval = 86400
+format = "%{T4}<label>"
+format-padding = 2
+exec = echo ""
+click-left = /home/whiskeyjack/.config/rofi/bins/appsmenu
+
+
+
+[module/title]
+type = internal/xwindow
+label = %title%
+format = <label>
+label-maxlen = 30
+label-empty = "whiskeyjack // x"
+format-padding = ${variables.mpadding}
+format-background = ${colors.title-bg}
+format-foreground = ${colors.title-fg}
+
+[module/bspwm]
+type = internal/bspwm
+enable-click = true
+; Only show workspaces defined on the same output as the bar
+; NOTE: The bspwm and XRandR monitor names must match, which they do by default.
+; Default: true
+pin-workspaces = true
+
+; Output mode flags after focused state label
+; Default: false
+inline-mode = false
+
+; Create click handler used to focus workspace
+; Default: true
+
+; Create scroll handlers used to cycle workspaces
+; Default: true
+enable-scroll = false
+
+; Set the scroll cycle direction
+; Default: true
+reverse-scroll = false
+
+; Use fuzzy (partial) matching on labels when assigning
+; icons to workspaces
+; Example: code;♚ will apply the icon to all workspaces
+; containing 'code' in the label
+; Default: false
+fuzzy-match = true
+
+; ws-icon-[0-9]+ = label;icon
+; Note that the label needs to correspond with the bspwm workspace name
+ws-icon-0 = one;%{T4}%{T-}
+ws-icon-1 = two;%{T4}%{T-}
+ws-icon-2 = three;%{T4}%{T-}
+ws-icon-3 = four;%{T4}%{T-}
+ws-icon-4 = five;%{T4}%{T-}
+ws-icon-5 = six;%{T4}%{T-}
+
+;ws-icon-default = 
+
+; Available tags:
+;   <label-monitor>
+;   <label-state> - gets replaced with <label-(focused|urgent|occupied|empty)>
+;   <label-mode> - gets replaced with <label-(monocle|tiled|fullscreen|floating|locked|sticky|private)>
+; Default: <label-state>
+format = <label-state> <label-mode>
+
+; Available tokens:
+;   %name%
+; Default: %name%
+label-monitor = %name%
+
+; If any values for label-dimmed-N are defined, the workspace/mode
+; colors will get overridden with those values if the monitor is out of focus
+; To only override workspaces in a specific state, use:
+;   label-dimmed-focused
+;   label-dimmed-occupied
+;   label-dimmed-urgent
+;   label-dimmed-empty
+label-dimmed-foreground = #555555
+label-dimmed-focused-background = #f00
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+; Default: %icon%  %name%
+label-focused = %icon%
+label-focused-padding = 3
+label-focused-foreground = #ffffff
+label-focused-background = #3f3f3f
+label-focused-underline = #b20000
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+; Default: %icon%  %name%
+label-occupied = %icon%
+label-occupied-padding = 3
+label-occupied-underline = #555555
+label-occupied-background = #1d1d1d
+label-occupied-foreground = #cccccc
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+; Default: %icon%  %name%
+label-urgent = %icon%
+label-urgent-foreground = #000000
+label-urgent-background = #bd2c40
+label-urgent-underline = #9b0a20
+
+; Available tokens:
+;   %name%
+;   %icon%
+;   %index%
+; Default: %icon%  %name%
+label-empty = %icon%
+label-empty-padding = 3
+label-empty-foreground = #777777
+label-empty-background = #1d1d1d
+
+; The following labels will be used to indicate the layout/mode
+; for the focused workspace. Requires <label-mode>
+;
+; Available tokens:
+;   None
+;label-monocle = 
+;label-tiled = 
+;label-fullscreen = 
+;label-floating = 
+;label-pseudotiled = P
+;label-locked = 
+;label-locked-foreground = #bd2c40
+;label-sticky = 
+;label-sticky-foreground = #fba922
+;label-private = 
+;label-private-foreground = #bd2c40
+
+; Separator in between workspaces
+;label-separator = |
+label-separator-padding = 2
+label-separator-foreground = #ffffff
+
+[module/previous]
+format-background = #1d1d1d
+format-foreground = $ffffff
+type = custom/script
+interval = 86400
+format = "%{T4}<label>"
+format-padding = 2
+; Previous song icon
+exec = echo ""
+format-underline = #3d3d3d
+line-size = 1
+click-left = "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous"
+
+[module/next]
+format-background = #1d1d1d
+format-foreground = #ffffff
+type = custom/script
+interval = 86400
+format = "%{T4}<label>"
+format-padding = 2
+; Next song icon
+exec = echo ""
+format-underline = #3d3d3d
+line-size = 0
+click-left = "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next"
+
+[module/playpause]
+format-background = #1d1d1d
+format-foreground = #ffffff
+format-padding = 2
+type = custom/ipc
+; Default
+hook-0 = echo "%{T4}%{T-}"
+; Playing
+hook-1 = echo "%{T4}%{T-}"
+; Paused
+hook-2 = echo "%{T4}%{T-}"
+initial = 1
+format-underline = #3d3d3d
+line-size = 1
+click-left = "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause"
+
+[module/spotify]
+label-maxlen = 25
+format-background = #1d1d1d
+type = custom/script
+interval = 1
+format-prefix = " "
+format = <label>
+exec = python ~/scripts/spotify/spotify_status.py -f '{artist} - {song}'
+format-underline = #b20000
+format-padding = 4
+click-left = "bspc desktop -f '^4'"
+
+[module/kdeconnect]
+type = custom/script
+exec = "~/.config/polybar/polybar-kdeconnect.sh -d"
+tail = true
+
+[module/date]
+type = internal/date
+interval = 5
+format-padding = ${variables.mpadding}
+
+date-alt = "%b %d [%A], %Y"
+time = "%H:%M"
+
+label = %date% %time%
+format-background = ${colors.timedate-bg}
+format-foreground = ${colors.timedate-fg}
+
+[settings]
+;{{{
+screenchange-reload = true
+;compositing-background = xor
+;compositing-background = screen
+;compositing-foreground = source
+;compositing-border = over
+;pseudo-transparency = false
+;}}}
+
+[module/power]
+format-background = #752f2f
+;format-background = #8B0000
+format-foreground = #ffffff
+type = custom/script
+interval = 86400
+format = "%{T4}<label>"
+format-padding = 2
+exec = echo ""
+click-left = /home/whiskeyjack/.config/rofi/bins/powermenu
